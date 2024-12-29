@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.truck-properties {
+  margin-top: 1rem;
+}
+
+.good-thing {
+  margin-bottom: 0.5rem;
+}
+
+.card-img {
+  width: 100%;
+  height: auto;
+}
+
+.card-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.card-btn:hover {
+  background-color: #0056b3;
+}
+
+.des {
+  margin-left: 5px !important;
+}
+
+.truck-card-icon {
+  min-width: 24px !important;
+}
+
+.view_car_btn {
+  color: black;
+  background-color: transparent;
+  padding: 8px 12px;
+  border-radius: 15px;
+  border: 1px solid black;
+  text-decoration: none;
+}
+
+.view_car_btn:hover {
+  color: white;
+  background-color: #2596be;
+  border: 1px solid #2596be;
+}

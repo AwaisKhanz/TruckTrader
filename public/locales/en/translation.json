@@ -1,0 +1,529 @@
+{
+  "navbar": {
+    "brandName": "TRUCK",
+    "trader": "TRADER",
+    "home": "HOME",
+    "about": "ABOUT",
+    "faq": "FAQ",
+    "contact": "CONTACT",
+    "advertise": "ADVERTISE",
+    "signIn": "Sign In",
+    "signUp": "Sign Up"
+  },
+  "home": {
+    "searchPlaceholder": "I am looking for...",
+    "searchButton": "SEARCH"
+  },
+  "about": {
+    "welcome": "Welcome To",
+    "truckServices": "Truck Services",
+    "description": "A truck is a motor vehicle designed primarily for transporting cargo capabilities to meet various needs. From light-duty pickups used for personal and business tasks to heavy-duty commercial trucks designed for long-haul transportation, trucks are essential in industries like construction, logistics, and agriculture. Modern trucks also incorporate advanced safety features, technology, and comfort for both work and off-road environments.",
+    "cards": {
+      "allBrands": {
+        "title": "All Brands",
+        "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum, temporibus?"
+      },
+      "freeSupport": {
+        "title": "Free Support",
+        "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum, temporibus?"
+      },
+      "dealership": {
+        "title": "Dealership",
+        "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum, temporibus?"
+      },
+      "affordable": {
+        "title": "Affordable",
+        "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum, temporibus?"
+      }
+    }
+  },
+  "contactPage": {
+    "heading": "Contact Us",
+    "description": "Please contact us for all your questions, we will be happy to help you.",
+    "callUs": {
+      "label": "You can also call us directly:",
+      "phone": "(+31) 20 737 28 99"
+    },
+    "officeHours": {
+      "label": "Office hours:",
+      "timing": "Monday till Friday 09:00 – 17:00"
+    },
+    "form": {
+      "title": "Contact Us For Your Truck",
+      "fields": {
+        "firstName": {
+          "label": "Name",
+          "placeholder": "First Name"
+        },
+        "lastName": {
+          "label": "Last Name",
+          "placeholder": "Last Name"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "Enter Your Email"
+        },
+        "phoneNumber": {
+          "label": "Phone Number",
+          "placeholder": "Enter Your Number"
+        },
+        "message": {
+          "label": "Message",
+          "placeholder": "Type Message here"
+        }
+      },
+      "submitButton": "Submit"
+    }
+  },
+  "signupPage": {
+    "banner": {
+      "titlePart1": "Sign",
+      "titlePart2": "Up"
+    },
+    "accountType": {
+      "label": "Account Type",
+      "private": "Private",
+      "business": "Business"
+    },
+    "form": {
+      "firstName": {
+        "label": "First Name",
+        "placeholder": "Enter your first name"
+      },
+      "surname": {
+        "label": "Surname",
+        "placeholder": "Enter your surname"
+      },
+      "subscription": {
+        "label": "Subscription",
+        "placeholder": "Select Subscription",
+        "option1": "Subscription1",
+        "option2": "Subscription2",
+        "option3": "Subscription3"
+      },
+      "zipCode": {
+        "label": "Zip Code",
+        "placeholder": "Enter your zip code"
+      },
+      "streetCode": {
+        "label": "Street Code",
+        "placeholder": "Enter your street code"
+      },
+      "street": {
+        "label": "Street",
+        "placeholder": "Enter your street"
+      },
+      "city": {
+        "label": "City",
+        "placeholder": "Enter your city"
+      },
+      "country": {
+        "label": "Select Country",
+        "placeholder": "Choose a country"
+      },
+      "gender": {
+        "label": "Gender",
+        "male": "Male",
+        "female": "Female",
+        "other": "Other"
+      },
+      "company": {
+        "label": "Company",
+        "placeholder": "Enter your company name"
+      },
+      "cocNumber": {
+        "label": "CoC Number",
+        "placeholder": "Enter your CoC number"
+      },
+      "addition": {
+        "label": "Addition",
+        "placeholder": "Enter addition details"
+      },
+      "phoneNumber": {
+        "label": "Phone Number",
+        "placeholder": "Enter your phone number"
+      },
+      "altPhoneNumber": {
+        "label": "Alternative Phone Number",
+        "placeholder": "Enter your alternative phone number"
+      },
+      "email": {
+        "label": "Email Address",
+        "placeholder": "Enter your email address"
+      },
+      "password": {
+        "label": "Password",
+        "placeholder": "Enter your password"
+      },
+      "confirmPassword": {
+        "label": "Confirm Password",
+        "placeholder": "Confirm your password"
+      },
+      "terms": {
+        "label": "Accept Terms"
+      },
+      "submitButton": "Create Account"
+    }
+  },
+  "signinPage": {
+    "title": {
+      "part1": "Log",
+      "part2": "In"
+    },
+    "subtitle": "Enter your email and password to Login TruckTrader",
+    "form": {
+      "email": {
+        "label": "Email",
+        "placeholder": "Enter Your Email"
+      },
+      "password": {
+        "label": "Password",
+        "placeholder": "Enter Your Password"
+      },
+      "rememberMe": "Remember Me",
+      "forgotPassword": "Forgot Password",
+      "submitButton": "LOG IN"
+    }
+  },
+  "footer": {
+    "title": {
+      "brand": "TRUCK",
+      "name": "TRADER"
+    },
+    "description": "The sites Trucktrader.nl, Trucktrader.be, Trucktrader.lu and Trucktrader.world (all languages) are very user-friendly so that the selling party has to make virtually no effort to display its complete stock.",
+    "navigate": {
+      "title": "Navigate",
+      "home": "HOME",
+      "about": "ABOUT TRUCKTRADER",
+      "faq": "FREQUENTLY ASKED QUESTIONS",
+      "contact": "CONTACT",
+      "advertise": "ADVERTISE"
+    },
+    "subscribe": {
+      "title": "Subscribe to our news letters",
+      "description": "Subscribe to receive inspiration, ideas, and news in your inbox.",
+      "inputPlaceholder": "Enter Your Email",
+      "submitButton": "Submit"
+    },
+    "copyRight": "Copyright © 2024 Trucktrader Benelux B.V. | Terms and conditions | Cookies"
+  },
+  "detailPage": {
+    "description": {
+      "title": "Description"
+    },
+    "features": {
+      "title": "Features"
+    },
+    "properties": {
+      "type": "Type",
+      "model": "Model:",
+      "brand": "Brand:",
+      "number": "Number:",
+      "productionDate": "Production Date:",
+      "transmission": "Transmission:",
+      "mileage": "Mileage:"
+    },
+    "address": {
+      "title": "Address"
+    },
+    "form": {
+      "name": "Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "phoneNumber": "Phone Number",
+      "message": "Message",
+      "submit": "Submit",
+      "firstNamePlaceholder": "First Name",
+      "lastNamePlaceholder": "Last Name",
+      "emailPlaceholder": "Enter Your Email",
+      "phoneNumberPlaceholder": "Enter Your Number",
+      "messagePlaceholder": "Type Message here"
+    }
+  },
+  "resultsPage": {
+    "filter": {
+      "title": "Find Trucks",
+      "variant": "Variant",
+      "selectModel": "Select Model",
+      "model2020": "2020",
+      "model2021": "2021",
+      "model2022": "2022",
+      "model2023": "2023",
+      "mileage": "Mileage",
+      "mileage100k": "100,000 KM",
+      "mileage200k": "200,000 KM",
+      "mileage300k": "300,000 KM",
+      "mileage400k": "400,000 KM",
+      "fuel": "Fuel",
+      "fuelGas": "Gas",
+      "fuelPetrol": "Petrol",
+      "fuelDiesel": "Diesel",
+      "color": "Color",
+      "selectColor": "Select Color",
+      "colorBlue": "Blue",
+      "colorBlack": "Black",
+      "colorWhite": "White",
+      "colorRed": "Red",
+      "clearAll": "Remove Filters",
+      "engineType": "Engine Type",
+      "selectEngineType": "Select Engine Type",
+      "petrol": "Petrol",
+      "diesel": "Diesel",
+      "hybrid": "Hybrid",
+      "electric": "Electric",
+      "odometer": "Odometer",
+      "minOdometer": "Min",
+      "maxOdometer": "Max",
+      "lease": "Lease Amount",
+      "minLease": "Min",
+      "maxLease": "Max",
+      "category": "Category",
+      "enterCategory": "Enter Category",
+      "sortBy": "Sort By",
+      "sortDefault": "Score",
+      "sortNewest": "Newest offer first",
+      "sortMakeModel": "Make/model/type",
+      "sortPriceAsc": "Price (ascending)",
+      "sortPriceDesc": "Price (descending)",
+      "sortDistance": "Distance to provider",
+      "resultsPerPage": "Results per page",
+      "limit10": "10",
+      "limit25": "25",
+      "limit50": "50",
+      "limitDefault": "Limit",
+      "features": {
+        "featuresTitle": "Features",
+        "air_conditioning": "Air Conditioning",
+        "climate_control": "Climate Control",
+        "cruise_control": "Cruise Control",
+        "intarder": "Intarder",
+        "pto": "PTO",
+        "retarder": "Retarder",
+        "tow_bar": "Tow Bar",
+        "warranty": "Warranty"
+      }
+    },
+    "loading": "Loading..."
+  },
+  "aboutUs": {
+    "banner": {
+      "title": {
+        "part1": "ABOUT",
+        "part2": "TRUCK TRADER"
+      },
+      "description": "The sites Trucktrader.nl, Trucktrader.be, Trucktrader.lu and Trucktrader.world (all languages) are very user-friendly so that the selling party has to make virtually no effort to display its complete stock. Of course, we also have to inform the user/ buyer who can quickly view the advertisements he wants via our advanced search engine; in short, a platform where buyer and seller meet to close THE DEAL!"
+    },
+    "section1": {
+      "title": {
+        "part1": "The Added Value of",
+        "part2": "Trucktrader"
+      },
+      "benefits": [
+        "User-friendly, for both the selling and purchasing parties",
+        "A platform with great reach and exposure",
+        "Quick and cheap placement of car stock, banners and advertorials",
+        "High quality advertisements at very competitive prices"
+      ]
+    },
+    "section2": {
+      "title": {
+        "part1": "How do we get",
+        "part2": "started?"
+      },
+      "description": "Trucktrader.nl runs based on the XML FEED you provide:",
+      "advantages": {
+        "title": "Advantages:",
+        "list": [
+          "We place all your advertisements completely automatically and they are visible in real time",
+          "With every advertisement a direct link to your webshop/website",
+          "All your advertisements are automatically up to date",
+          "Free placement of your logo with the advertisements"
+        ]
+      }
+    },
+    "section3": {
+      "title": {
+        "part1": "There are currently connections with",
+        "part2": "ready-made feeds at:"
+      },
+      "connections": [
+        "Hexon",
+        "Wheeler Delta",
+        "Autosoft",
+        "TWIN Vision",
+        "Trucks",
+        "Customer Connect",
+        "Autoscout24",
+        "123machine",
+        "VWE Automotive",
+        "(so you can link your stock here)"
+      ]
+    },
+    "section4": {
+      "title": {
+        "part1": "If no",
+        "part2": "XML feed is available:"
+      },
+      "list": [
+        "If not yet available, Trucktrader will create the XML feed for you in-house (based on a quotation).",
+        "You can have an XML feed developed by the administrator of your own website"
+      ]
+    }
+  },
+  "faqPage": {
+    "banner": {
+      "title": {
+        "part1": "Frequently",
+        "part2": "Asked",
+        "part3": "Questions"
+      },
+      "description": "Lorem ipsum dolor sit amet consectetur."
+    },
+    "questions": {
+      "1": {
+        "title": "1. What are the requirements for studying in France?",
+        "description": "Tuition fees for master's programs typically start at 8,000 Euros per annum. Additionally, the average living cost in France ranges from 600 to 1,000 Euros, depending on your chosen study destination."
+      },
+      "2": {
+        "title": "2. How much does it cost to pursue studies in France?",
+        "description": "Tuition fees for master's programs typically start at 8,000 Euros per annum. Additionally, the average living cost in France ranges from 600 to 1,000 Euros, depending on your chosen study destination."
+      },
+      "3": {
+        "title": "3. What are the requirements for studying in France?",
+        "description": "Tuition fees for master's programs typically start at 8,000 Euros per annum. Additionally, the average living cost in France ranges from 600 to 1,000 Euros, depending on your chosen study destination."
+      },
+      "4": {
+        "title": "4. What are the requirements for studying in France?",
+        "description": "Tuition fees for master's programs typically start at 8,000 Euros per annum. Additionally, the average living cost in France ranges from 600 to 1,000 Euros, depending on your chosen study destination."
+      },
+      "5": {
+        "title": "5. What are the requirements for studying in France?",
+        "description": "Tuition fees for master's programs typically start at 8,000 Euros per annum. Additionally, the average living cost in France ranges from 600 to 1,000 Euros, depending on your chosen study destination."
+      },
+      "6": {
+        "title": "6. What are the requirements for studying in France?",
+        "description": "Tuition fees for master's programs typically start at 8,000 Euros per annum. Additionally, the average living cost in France ranges from 600 to 1,000 Euros, depending on your chosen study destination."
+      },
+      "7": {
+        "title": "7. What are the requirements for studying in France?",
+        "description": "Tuition fees for master's programs typically start at 8,000 Euros per annum. Additionally, the average living cost in France ranges from 600 to 1,000 Euros, depending on your chosen study destination."
+      },
+      "8": {
+        "title": "8. What are the requirements for studying in France?",
+        "description": "Tuition fees for master's programs typically start at 8,000 Euros per annum. Additionally, the average living cost in France ranges from 600 to 1,000 Euros, depending on your chosen study destination."
+      },
+      "9": {
+        "title": "9. What are the requirements for studying in France?",
+        "description": "Tuition fees for master's programs typically start at 8,000 Euros per annum. Additionally, the average living cost in France ranges from 600 to 1,000 Euros, depending on your chosen study destination."
+      },
+      "10": {
+        "title": "10. What are the requirements for studying in France?",
+        "description": "Tuition fees for master's programs typically start at 8,000 Euros per annum. Additionally, the average living cost in France ranges from 600 to 1,000 Euros, depending on your chosen study destination."
+      },
+      "11": {
+        "title": "11. What are the requirements for studying in France?",
+        "description": "Tuition fees for master's programs typically start at 8,000 Euros per annum. Additionally, the average living cost in France ranges from 600 to 1,000 Euros, depending on your chosen study destination."
+      },
+      "12": {
+        "title": "12. What are the requirements for studying in France?",
+        "description": "Tuition fees for master's programs typically start at 8,000 Euros per annum. Additionally, the average living cost in France ranges from 600 to 1,000 Euros, depending on your chosen study destination."
+      },
+      "13": {
+        "title": "13. What are the requirements for studying in France?",
+        "description": "Tuition fees for master's programs typically start at 8,000 Euros per annum. Additionally, the average living cost in France ranges from 600 to 1,000 Euros, depending on your chosen study destination."
+      },
+      "14": {
+        "title": "14. What are the requirements for studying in France?",
+        "description": "Tuition fees for master's programs typically start at 8,000 Euros per annum. Additionally, the average living cost in France ranges from 600 to 1,000 Euros, depending on your chosen study destination."
+      },
+      "15": {
+        "title": "14. What are the requirements for studying in France?",
+        "description": "Tuition fees for master's programs typically start at 8,000 Euros per annum. Additionally, the average living cost in France ranges from 600 to 1,000 Euros, depending on your chosen study destination."
+      }
+    },
+    "advertise": {
+      "title": {
+        "part1": "To",
+        "part2": "Advertise"
+      },
+      "description": "Lorem ipsum dolor sit amet consectetur."
+    }
+  },
+  "advertisePage": {
+    "banner": {
+      "title": "Advertise",
+      "carCompanies": {
+        "title": "Car Companies",
+        "description": "TruckTrader has over 400,000 unique visitors every month - that's 400,000 potential used car buyers each month! Got excited about the possibilities? Send an email to sales@trucktrader.nl and we'll get in touch with you."
+      },
+      "individuals": {
+        "title": "Individuals",
+        "description": "As a private individual, you can also advertise on TruckTrader. With over 400,000 unique visitors every month, you’ll sell your vehicle in no time! Once registered, you can immediately enter your ad!"
+      }
+    },
+    "form": {
+      "header": {
+        "title": "Sign Up"
+      },
+      "fields": {
+        "subscription": {
+          "label": "Select Subscription",
+          "placeholder": "Select Subscription"
+        },
+        "cocNumber": {
+          "label": "CoC Number",
+          "placeholder": "CoC Number"
+        },
+        "firstName": {
+          "label": "First Name",
+          "placeholder": "First Name"
+        },
+        "street": {
+          "label": "Street",
+          "placeholder": "Street"
+        },
+        "country": {
+          "label": "Country",
+          "placeholder": "Select Country"
+        },
+        "phoneNumber": {
+          "label": "Phone Number",
+          "placeholder": "Phone Number"
+        },
+        "zipCode": {
+          "label": "Zip Code",
+          "placeholder": "Zip Code"
+        },
+        "company": {
+          "label": "Company",
+          "placeholder": "Company"
+        },
+        "insert": {
+          "label": "Insert",
+          "placeholder": "Insert"
+        },
+        "lastName": {
+          "label": "Last Name",
+          "placeholder": "Last Name"
+        },
+        "streetNumber": {
+          "label": "Street Number",
+          "placeholder": "Street Number"
+        },
+        "city": {
+          "label": "City",
+          "placeholder": "City"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "Enter Your Email"
+        },
+        "bank": {
+          "label": "Bank",
+          "placeholder": "Bank"
+        }
+      },
+      "button": "Submit"
+    }
+  }
+}

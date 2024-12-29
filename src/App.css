@@ -1,0 +1,1038 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --red: #2596be;
+  --white: #fff;
+  --black: #000;
+  --light-black: #1e1e19;
+  --grey: #848484;
+}
+
+h1 {
+  font-family: "Roboto", serif !important;
+  font-size: 50px !important;
+  font-weight: 800 !important;
+}
+
+h2 {
+  font-family: "Roboto", serif !important;
+  font-size: 30px !important;
+  font-weight: 700 !important;
+}
+
+h4 {
+  font-size: 24px !important;
+  font-family: "Roboto", serif !important;
+}
+
+p {
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  font-family: "Poppins", sans-serif !important;
+}
+
+/* Navbar Starts  */
+
+.navbar .navbar-brand h2 {
+  font-family: "Roboto" !important;
+  font-weight: 900 !important;
+  font-size: 2.3rem !important;
+}
+
+.navbar ul li {
+  font-family: "Roboto", serif;
+  margin-right: 14px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+.navbar ul li a {
+  color: var(--light-black);
+}
+
+.nav-link {
+  position: relative;
+  text-decoration: none;
+  /* Remove default underline */
+  color: inherit;
+  /* Keeps the default link color */
+}
+
+/* .nav-link:hover::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3px;
+  background-color: currentColor;
+  transition: width 0.7s ease;
+  width: 100%;
+} */
+
+.nav-link:hover {
+  color: var(--red) !important;
+}
+
+/* .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: currentColor;
+  transition: width 0.7s ease;
+} */
+
+.navbar .red-btn {
+  border: 2px solid var(--red) !important;
+  border-radius: 50px;
+  padding: 8px 20px;
+  color: var(--white) !important;
+  background-color: var(--red) !important;
+  font-weight: 600;
+}
+
+.navbar .red-btn:hover {
+  border: 2px solid var(--red) !important;
+  border-radius: 50px;
+  padding: 8px 20px;
+  color: var(--red) !important;
+  background-color: var(--white) !important;
+  font-weight: 600;
+}
+
+.navbar .white-btn {
+  border: 2px solid var(--red) !important;
+  border-radius: 50px;
+  padding: 8px 20px;
+  color: var(--red) !important;
+  background-color: var(--white) !important;
+  font-weight: 600;
+}
+
+.navbar .white-btn:hover {
+  border: 2px solid var(--red) !important;
+  border-radius: 50px;
+  padding: 8px 20px;
+  color: var(--white) !important;
+  background-color: var(--red) !important;
+  font-weight: 600;
+}
+
+/* Narbar Ends  */
+
+/* Home Banner Starts  */
+
+.home-banner {
+  height: 120px;
+  position: relative;
+  /* background: url('assets/images/contact-img.png') center center/cover no-repeat; */
+}
+
+.home-banner .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0);
+}
+
+.home-banner form input,
+.home-banner form button {
+  border-radius: 0;
+  padding-top: 14px !important;
+  padding-bottom: 14px !important;
+}
+
+.home-banner form input {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.home-banner form button {
+  color: var(--white);
+  background: #149614;
+  border: 2px solid #149614;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+/* Home Banner Ends  */
+
+/* Form filter Start  */
+
+form#car-filter-form {
+  padding: 45px 25px;
+  /* border: 1px solid #444; */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  /* Brighter shadow */
+  border-radius: 8px;
+  position: relative;
+  margin-top: -7rem;
+  background-color: var(--white);
+}
+
+form#car-filter-form button.filter-btn {
+  padding: 8px 108px;
+  border: 2px solid var(--red);
+  background: var(--red);
+  color: var(--white);
+  border-radius: 8px;
+}
+
+/* Form filter ends  */
+
+/* About Us Start  */
+.about {
+  padding: 30px 0;
+  position: relative;
+  height: 800px;
+  background: url("assets/images/about-bg.jpg") center center/cover no-repeat;
+}
+
+.about .about-us p {
+  font-family: "Poppins", sans-serif;
+  font-size: 15.44px;
+  font-weight: 400;
+  color: var(--grey);
+}
+
+.about .about-us .card {
+  border: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  /* Brighter shadow */
+  transition: all 0.3s ease-in-out;
+}
+
+.about .about-us .card:hover {
+  transform: translateY(-5px);
+}
+
+.about .about-us .card .card-body .card-img {
+  color: var(--red);
+}
+
+.about .about-us .card .card-body .card-title h5 {
+  color: var(--black);
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
+
+.about .about-us .card .card-body .card-text {
+  color: var(--grey);
+  font-family: "Poppins", sans-serif;
+}
+
+/* About Us Ends */
+
+/* Truck Listing Start  */
+.truck-listing .truck-listing-row .card {
+  border: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  /* Brighter shadow */
+  transition: all 0.3s ease-out;
+  border-radius: 8px;
+}
+
+.truck-listing .truck-listing-row .card:hover {
+  transform: translateY(-5px);
+}
+
+.truck-listing .truck-listing-row .card .card-body .card-content small {
+  color: var(--red);
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 6px;
+}
+
+.truck-listing .truck-listing-row .card .card-body .card-content .card-title {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300 !important;
+}
+
+.truck-listing
+  .truck-listing-row
+  .card
+  .card-body
+  .card-content
+  .truck-properties
+  .truck-icon {
+  font-size: 18px;
+  color: var(--grey);
+}
+
+.truck-listing
+  .truck-listing-row
+  .card
+  .card-body
+  .card-content
+  .truck-properties
+  span {
+  color: var(--grey);
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.truck-listing .truck-listing-row .card .card-body .card-content .card-btn {
+  font-size: 14px;
+  border: none;
+  background: var(--white);
+}
+
+.truck-listing .truck-listing-row .card .card-body .card-content hr {
+  color: var(--grey);
+}
+
+/* Truck Listing Ends  */
+
+/* Footer Section Starts*/
+.main-footer {
+  min-height: 400px;
+  margin-top: 7rem !important;
+  background-color: var(--light-black);
+}
+
+.main-footer .footer-row h2 {
+  color: var(--white) !important;
+  font-size: 42px !important;
+  font-weight: 400;
+  line-height: 50px;
+}
+
+.main-footer li a {
+  font-size: 14px !important;
+}
+
+.main-footer .footer-row p {
+  font-size: 14px !important;
+  line-height: 28px;
+  font-weight: 400;
+  color: var(--white);
+  font-family: "Roboto", serif;
+}
+
+.main-footer .footer-row .social-icons {
+  font-size: 30px;
+  color: var(--white);
+}
+
+.main-footer .footer-row form {
+  border: 2px solid var(--grey);
+  border-radius: 40px;
+}
+
+.main-footer .footer-row form input {
+  background-color: var(--light-black) !important;
+  border: none !important;
+  outline: none;
+}
+
+.main-footer .footer-row form button {
+  background-color: var(--red);
+  /* red-like color */
+  padding: 8px 25px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 40px;
+  border: 2px solid var(--red);
+}
+
+.detail-contact-btn {
+  background-color: var(--red);
+  padding: 8px 25px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 40px;
+  border: 2px solid var(--red);
+}
+
+.detail-contact-btn:hover {
+  background-color: transparent;
+  border: 2px solid var(--red);
+  color: var(--red);
+}
+.main-footer .footer-row form button:hover {
+  background-color: var(--light-black);
+  border: 2px solid var(--red);
+  color: var(--red);
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white !important;
+  padding: 20px;
+  max-width: 600px;
+  width: 100%;
+  overflow: auto;
+  position: relative;
+  border-radius: 20px !important;
+}
+
+.modal-close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Footer Section Ends*/
+
+/* ##################### CONTACT US PAGE CSS ##################### */
+
+/* Contact Us Banner Starts  */
+.contact {
+  height: 500px;
+  position: relative;
+  background: url("assets/images/contact-img.png") center center/cover no-repeat;
+}
+
+.contact .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 500px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.contact .content .contact-us h1 {
+  font-size: 68px;
+  font-weight: 400;
+  color: var(--white);
+}
+
+.contact .content .contact-us p {
+  color: var(--white);
+  font-family: "Roboto", serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+/* Contact Us Banner Ends  */
+.contact-form .contact-form-row .main-form h2 {
+  color: var(--black) !important;
+}
+
+/* Contact Us Form Starts  */
+.main-form .form-control.half-width {
+  width: 50%;
+  /* Set 50% width for input fields */
+}
+
+.main-form .form-control.full-width {
+  width: 100%;
+  /* Set 100% width for the message textarea */
+}
+
+.required-sign {
+  color: var(--red);
+  /* Color for the asterisk (*) to indicate required fields */
+  margin-left: 2px;
+}
+
+.contact-form .main-form-header form label {
+  color: var(--black);
+  font-size: 18px;
+  font-family: "Roboto", serif;
+  font-weight: 400;
+}
+
+.contact-form .main-form-header form label:hover {
+  color: var(--red);
+}
+
+.contact-form .main-form-header form .submit-btn {
+  padding: 9px 35px;
+  border: 2px solid var(--red);
+  background-color: var(--red);
+  border-radius: 45px;
+  color: var(--white);
+  transition: all 0.3s ease-in;
+}
+
+.contact-form .main-form-header form .submit-btn:hover {
+  padding: 9px 35px;
+  border: 2px solid var(--red);
+  background-color: var(--white);
+  border-radius: 45px;
+  color: var(--red);
+}
+
+.contact-form .main-form-header form input#name,
+input#lastName,
+input#email,
+input#phonenumber,
+textarea#message {
+  border: 1px solid var(--grey);
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  /* For smaller screens, make the fields full width */
+  .main-form .form-control.half-width {
+    width: 100%;
+  }
+}
+
+/* Contact Us Form Ends  */
+
+/* ########################################## SIGN UP PAGE STARTS  ########################################## */
+.signup-banner {
+  position: relative;
+  height: 280px;
+  background: url("./assets/images/signup-truck.png") center center/cover
+    no-repeat;
+}
+
+.signup-banner .content {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.signup-page .signup-content h1 {
+  color: var(--white);
+}
+
+.signup-form form h5 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 45px;
+}
+
+.signup-form form label {
+  font-size: 17px;
+  font-weight: 600;
+  color: #232323;
+}
+
+.signup-form form .signup-btn {
+  padding: 10px 25px;
+  background-color: var(--red);
+  border: 2px solid var(--red);
+  color: var(--white);
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.signup-form form .signup-btn:hover {
+  padding: 10px 25px;
+  background-color: var(--white);
+  border: 2px solid var(--red);
+  color: var(--red);
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.signup-page .signup-form .custom-checkbox {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+}
+
+.custom-checkbox:checked {
+  background-color: blue;
+  border-color: blue;
+}
+
+.custom-checkbox:checked::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* ########################################## SIGN UP PAGE ENDS  ########################################## */
+
+/* ########################################## SIGN IN PAGE STARTS  ########################################## */
+
+/* .signin-banner {
+  position: relative;
+  height: 458px;
+  background: url('./assets/images/signup-truck.png') center center/cover no-repeat;
+}
+
+.signin-banner .content {
+  position: absolute;
+  height: 458px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.signin-banner .content h1 {
+  color: var(--white);
+} */
+
+.login-form .form-content h2 {
+  font-size: 45px !important;
+  font-weight: 400;
+}
+
+.login-form .form-content p {
+  font-size: 18px;
+  color: var(--black);
+  font-weight: 400;
+}
+
+.login-form form {
+  width: 50%;
+  margin: 0 auto;
+  padding: 60px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* Adding box shadow */
+}
+
+.login-form form label {
+  font-size: 17px;
+  font-weight: 400;
+  color: #232323;
+}
+
+.login-form form .login-btn {
+  padding: 10px 20px;
+  background-color: var(--red);
+  color: var(--white);
+  font-weight: 600;
+  border: 2px solid var(--red);
+  border-radius: 50px;
+}
+
+.login-form form .login-btn:hover {
+  border: 2px solid var(--red);
+  background-color: var(--white);
+  color: var(--red);
+}
+
+@media (max-width: 768px) {
+  /* For smaller screens, make the fields full width */
+  .login-form form {
+    width: 100%;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 10px;
+  }
+}
+
+/* ########################################## SIGN IN PAGE ENDS  ########################################## */
+
+/* ########################################## RESULTS PAGE STARTS  ########################################## */
+.sidebar-filter {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  color: var(--red);
+  height: 1300px;
+}
+
+form label option {
+  font-size: 16px;
+  color: grey;
+}
+
+/* ########################################## RESULTS PAGE ENDS  ########################################## */
+
+/* ########################################## DETAILS PAGE STARTS  ########################################## */
+.button-list .property-btn {
+  padding: 6px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 13px;
+}
+
+.detail-page .detail-desc p {
+  font-size: 15px;
+}
+
+.detail-right-properties .truck-price {
+  margin-top: 50px;
+}
+
+.detail-features .features-row .features-head ul li {
+  margin: 7px 0;
+}
+
+.detail-right-properties .truck-price h4 {
+  font-weight: 800;
+}
+
+.detail-right-properties .detail-properties {
+  padding: 40px 30px;
+  margin-top: 35px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.details-form {
+  padding: 10px 30px;
+}
+
+.details-form .main-form {
+  border-radius: 10px;
+  padding: 0 30px;
+}
+
+.details-form .submit-btn {
+  padding: 10px 30px;
+  background-color: var(--red);
+  color: var(--white);
+  font-weight: 600;
+  border: 2px solid var(--red);
+  border-radius: 50px;
+}
+
+.details-form .submit-btn:hover {
+  border: 2px solid var(--red);
+  background-color: var(--white);
+  color: var(--red);
+}
+
+.respond {
+  border-radius: 10px;
+}
+
+.respond .respond-head h4 {
+  font-weight: 700;
+  color: var(--red);
+  font-size: 20px !important;
+}
+
+.address {
+  border-radius: 10px;
+}
+
+.address .address-head h4 {
+  font-weight: 700;
+  font-size: 20px !important;
+  color: var(--red);
+}
+
+/* ########################################## DETAILS PAGE ENDS  ########################################## */
+
+/* ########################################## ABOUT US PAGE STARTS  ########################################## */
+.about-banner {
+  position: relative;
+  height: 458px;
+  background: url("./assets/images/img1.jpg") center center/cover no-repeat;
+}
+
+.about-banner .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 458px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.about-banner .about-content p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+.about-row {
+  padding: 70px 0;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.about-row h2 {
+  text-align: left;
+  font-size: 48px !important;
+  font-weight: 400;
+  line-height: 72px;
+}
+
+.about-row .about-properties ul li {
+  margin: 10px 0;
+}
+
+.about-row-2 {
+  padding: 70px 0;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  height: 600px;
+  background: url("./assets/images/img1.jpg") center center/cover no-repeat;
+}
+
+.about-row-2 .content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 600px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.about-row-2 h2 {
+  text-align: left;
+  font-size: 48px !important;
+  font-weight: 400;
+  line-height: 72px;
+}
+
+.about-row-2 p {
+  text-align: left;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.about-row-2 .about-properties ul li {
+  margin: 10px 0;
+}
+
+.about-row-3 {
+  padding: 70px 0;
+}
+
+.about-row-3 h2 {
+  text-align: left;
+  font-size: 32px !important;
+  font-weight: 400;
+  line-height: 48px;
+}
+
+.about-row-3 .about-properties ul li {
+  margin: 5px 0;
+}
+
+.about-xml .about-properties ul li {
+  margin: 10px 0;
+}
+
+/* ########################################## ABOUT US PAGE ENDS  ########################################## */
+
+/* ########################################## PROFILE PAGE STARTS  ########################################## */
+.profile-img {
+  position: relative;
+  margin-top: -85px;
+}
+
+.profile-img img {
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
+}
+
+.profile-img .profile-icon {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  bottom: 0;
+  left: 7rem;
+  background: var(--white);
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* ########################################## PROFILE PAGE ENDS  ########################################## */
+
+/* ########################################## FAQ PAGE STARTS  ########################################## */
+.faq-banner {
+  position: relative;
+  height: 400px;
+  background: url("assets/images/signup-truck.png") center center/cover;
+}
+
+.faq-banner .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 400px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.faq-banner .content .faq-content h1 {
+  font-size: 68px !important;
+  line-height: 81px;
+  font-weight: 400;
+}
+
+.FAQ-one {
+  padding: 50px;
+}
+
+.accordion .accordion-item {
+  border: 1px solid var(--red) !important;
+  margin: 25px 0;
+  border-radius: 5px !important;
+  box-shadow: 0 4px 12px rgba(139, 139, 139, 0.2);
+}
+
+.accordion .accordion-item .accordion-header .accordion-button {
+  border: 1px solid var(--red) !important;
+}
+
+.FAQ-two .accordion-item .accordion-header .accordion-button {
+  background: var(--red);
+  color: var(--white);
+}
+
+.FAQ-two .accordion-button::after {
+  background-image: url("/assets/icons/arrowup.png") !important;
+}
+
+/* ########################################## FAQ PAGE ENDS  ########################################## */
+
+/* ########################################## ADVERTISE PAGE STARTS  ########################################## */
+.advertise-banner {
+  position: relative;
+  height: 460px;
+  background: url("assets/images/signup-truck.png") center center/cover;
+}
+.advertise-banner .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 460px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.9);
+}
+.advertise-banner .content .advertise-content h1 {
+  font-size: 68px !important;
+  font-weight: 400;
+  line-height: 81px;
+}
+
+.advertise-form {
+  padding: 50px 0;
+}
+.advertise-form form label {
+  font-size: 17px;
+  font-weight: 600;
+  color: #232323;
+}
+.advertise-btn {
+  padding: 10px 30px;
+  background-color: var(--red);
+  color: var(--white);
+  font-weight: 600;
+  border: 2px solid var(--red);
+  border-radius: 50px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.advertise-btn:hover {
+  border: 2px solid var(--red);
+  background-color: var(--white);
+  color: var(--red);
+}
+
+/* ########################################## ADVERTISE PAGE ENDS  ########################################## */
+
+/* Utility Classes */
+.txt-blue {
+  color: var(--red);
+}
+
+.txt-white {
+  color: var(--white);
+}
+
+.txt-black {
+  color: var(--black);
+}
+
+.txt-white {
+  color: var(--white);
+}
+
+label {
+  font-family: "Poppins", sans-serif;
+  color: var(--black);
+}
+
+option {
+  font-family: "Roboto", serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--light-black);
+}
+
+.quality-img {
+  object-fit: cover;
+}
+
+.pagination .active a {
+  background: var(--red) !important;
+}
+
+.txt-danger {
+  color: #fa2424;
+}
+
+.count-number-btn {
+  font-size: 18px;
+  font-weight: 500;
+  display: inline-block;
+  width: 100%;
+  padding: 8px 10px;
+  border-radius: 4px;
+  color: var(--red);
+  background: var(--white);
+  border: 2px solid var(--red);
+  transition: all 0.33s;
+}
+
+.count-number-btn:hover {
+  color: var(--white);
+  background: var(--red);
+}
+
+@media (max-width: 500px) {
+  .about {
+    display: none;
+  }
+}

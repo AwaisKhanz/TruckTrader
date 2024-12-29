@@ -1,0 +1,528 @@
+{
+  "navbar": {
+    "brandName": "TRUCK",
+    "trader": "TRADER",
+    "home": "HOME",
+    "about": "OVER ONS",
+    "faq": "FAQ",
+    "contact": "CONTACT",
+    "advertise": "ADVERTEREN",
+    "signIn": "Inloggen",
+    "signUp": "Aanmelden"
+  },
+  "home": {
+    "searchPlaceholder": "Ik ben op zoek naar...",
+    "searchButton": "ZOEKEN"
+  },
+  "about": {
+    "welcome": "Welkom bij",
+    "truckServices": "Truck Services",
+    "description": "Een truck is een motorvoertuig dat voornamelijk is ontworpen voor het vervoeren van vracht met mogelijkheden om aan verschillende behoeften te voldoen. Van lichte pickups voor persoonlijke en zakelijke taken tot zware commerciële trucks voor langeafstandsvervoer, trucks zijn essentieel in industrieën zoals bouw, logistiek en landbouw. Moderne trucks bevatten ook geavanceerde veiligheidsvoorzieningen, technologie en comfort voor zowel werk- als offroadomgevingen.",
+    "cards": {
+      "allBrands": {
+        "title": "Alle Merken",
+        "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum, temporibus?"
+      },
+      "freeSupport": {
+        "title": "Gratis Ondersteuning",
+        "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum, temporibus?"
+      },
+      "dealership": {
+        "title": "Dealerschap",
+        "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum, temporibus?"
+      },
+      "affordable": {
+        "title": "Betaalbaar",
+        "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum, temporibus?"
+      }
+    }
+  },
+  "contactPage": {
+    "heading": "Neem Contact Met Ons Op",
+    "description": "Neem contact met ons op voor al uw vragen, we helpen u graag.",
+    "callUs": {
+      "label": "U kunt ons ook rechtstreeks bellen:",
+      "phone": "(+31) 20 737 28 99"
+    },
+    "officeHours": {
+      "label": "Kantooruren:",
+      "timing": "Maandag tot vrijdag 09:00 – 17:00"
+    },
+    "form": {
+      "title": "Neem Contact Met Ons Op Voor Uw Truck",
+      "fields": {
+        "firstName": {
+          "label": "Voornaam",
+          "placeholder": "Voornaam"
+        },
+        "lastName": {
+          "label": "Achternaam",
+          "placeholder": "Achternaam"
+        },
+        "email": {
+          "label": "E-mail",
+          "placeholder": "Vul uw e-mailadres in"
+        },
+        "phoneNumber": {
+          "label": "Telefoonnummer",
+          "placeholder": "Voer uw nummer in"
+        },
+        "message": {
+          "label": "Bericht",
+          "placeholder": "Typ hier uw bericht"
+        }
+      },
+      "submitButton": "Verzenden"
+    }
+  },
+  "signupPage": {
+    "banner": {
+      "titlePart1": "Aanmelden",
+      "titlePart2": ""
+    },
+    "accountType": {
+      "label": "Accounttype",
+      "private": "Privé",
+      "business": "Zakelijk"
+    },
+    "form": {
+      "firstName": {
+        "label": "Voornaam",
+        "placeholder": "Voer uw voornaam in"
+      },
+      "surname": {
+        "label": "Achternaam",
+        "placeholder": "Voer uw achternaam in"
+      },
+      "subscription": {
+        "label": "Abonnement",
+        "placeholder": "Selecteer Abonnement",
+        "option1": "Abonnement1",
+        "option2": "Abonnement2",
+        "option3": "Abonnement3"
+      },
+      "zipCode": {
+        "label": "Postcode",
+        "placeholder": "Voer uw postcode in"
+      },
+      "streetCode": {
+        "label": "Straatcode",
+        "placeholder": "Voer uw straatcode in"
+      },
+      "street": {
+        "label": "Straat",
+        "placeholder": "Voer uw straat in"
+      },
+      "city": {
+        "label": "Stad",
+        "placeholder": "Voer uw stad in"
+      },
+      "country": {
+        "label": "Selecteer Land",
+        "placeholder": "Kies een land"
+      },
+      "gender": {
+        "label": "Geslacht",
+        "male": "Man",
+        "female": "Vrouw",
+        "other": "Anders"
+      },
+      "company": {
+        "label": "Bedrijf",
+        "placeholder": "Voer uw bedrijfsnaam in"
+      },
+      "cocNumber": {
+        "label": "CoC Nummer",
+        "placeholder": "Voer uw CoC nummer in"
+      },
+      "addition": {
+        "label": "Toevoeging",
+        "placeholder": "Voer aanvullende details in"
+      },
+      "phoneNumber": {
+        "label": "Telefoonnummer",
+        "placeholder": "Voer uw telefoonnummer in"
+      },
+      "altPhoneNumber": {
+        "label": "Alternatief Telefoonnummer",
+        "placeholder": "Voer uw alternatieve telefoonnummer in"
+      },
+      "email": {
+        "label": "E-mailadres",
+        "placeholder": "Voer uw e-mailadres in"
+      },
+      "password": {
+        "label": "Wachtwoord",
+        "placeholder": "Voer uw wachtwoord in"
+      },
+      "confirmPassword": {
+        "label": "Bevestig Wachtwoord",
+        "placeholder": "Bevestig uw wachtwoord"
+      },
+      "terms": {
+        "label": "Voorwaarden Accepteren"
+      },
+      "submitButton": "Maak Account"
+    }
+  },
+  "signinPage": {
+    "title": {
+      "part1": "Inloggen",
+      "part2": ""
+    },
+    "subtitle": "Voer uw e-mailadres en wachtwoord in om in te loggen bij TruckTrader",
+    "form": {
+      "email": {
+        "label": "E-mail",
+        "placeholder": "Voer uw e-mailadres in"
+      },
+      "password": {
+        "label": "Wachtwoord",
+        "placeholder": "Voer uw wachtwoord in"
+      },
+      "rememberMe": "Onthoud mij",
+      "forgotPassword": "Wachtwoord vergeten",
+      "submitButton": "INLOGGEN"
+    }
+  },
+  "footer": {
+    "title": {
+      "brand": "TRUCK",
+      "name": "TRADER"
+    },
+    "description": "De sites Trucktrader.nl, Trucktrader.be, Trucktrader.lu en Trucktrader.world (alle talen) zijn zeer gebruiksvriendelijk zodat de verkopende partij vrijwel geen moeite hoeft te doen om zijn volledige voorraad te tonen.",
+    "navigate": {
+      "title": "Navigeren",
+      "home": "HOME",
+      "about": "OVER TRUCKTRADER",
+      "faq": "VEELGESTELDE VRAGEN",
+      "contact": "CONTACT",
+      "advertise": "ADVERTEREN"
+    },
+    "subscribe": {
+      "title": "Schrijf je in voor onze nieuwsbrieven",
+      "description": "Meld je aan om inspiratie, ideeën en nieuws in je inbox te ontvangen.",
+      "inputPlaceholder": "Vul je e-mailadres in",
+      "submitButton": "Indienen"
+    },
+    "copyRight": "Copyright © 2024 Trucktrader Benelux B.V. | Algemene voorwaarden | Cookies"
+  },
+  "detailPage": {
+    "description": {
+      "title": "Beschrijving"
+    },
+    "features": {
+      "title": "Kenmerken"
+    },
+    "properties": {
+      "type": "Type",
+      "model": "Model:",
+      "brand": "Merk:",
+      "number": "Nummer:",
+      "productionDate": "Productiedatum:",
+      "transmission": "Transmissie:",
+      "mileage": "Kilometerstand:"
+    },
+    "address": {
+      "title": "Adres"
+    },
+    "form": {
+      "name": "Naam",
+      "lastName": "Achternaam",
+      "email": "E-mail",
+      "phoneNumber": "Telefoonnummer",
+      "message": "Bericht",
+      "submit": "Verzenden",
+      "firstNamePlaceholder": "Voornaam",
+      "lastNamePlaceholder": "Achternaam",
+      "emailPlaceholder": "Voer uw e-mailadres in",
+      "phoneNumberPlaceholder": "Voer uw nummer in",
+      "messagePlaceholder": "Typ hier uw bericht"
+    }
+  },
+  "resultsPage": {
+    "filter": {
+      "title": "Vind Vrachtwagens",
+      "variant": "Variant",
+      "selectModel": "Selecteer Model",
+      "model2020": "2020",
+      "model2021": "2021",
+      "model2022": "2022",
+      "model2023": "2023",
+      "mileage": "Kilometerstand",
+      "mileage100k": "100.000 KM",
+      "mileage200k": "200.000 KM",
+      "mileage300k": "300.000 KM",
+      "mileage400k": "400.000 KM",
+      "fuel": "Brandstof",
+      "fuelGas": "Gas",
+      "fuelPetrol": "Benzine",
+      "fuelDiesel": "Diesel",
+      "color": "Kleur",
+      "selectColor": "Selecteer Kleur",
+      "colorBlue": "Blauw",
+      "colorBlack": "Zwart",
+      "colorWhite": "Wit",
+      "colorRed": "Rood",
+      "engineType": "Motortype",
+      "selectEngineType": "Selecteer motortype",
+      "petrol": "Benzine",
+      "diesel": "Diesel",
+      "hybrid": "Hybride",
+      "electric": "Elektrisch",
+      "odometer": "Kilometerteller",
+      "minOdometer": "Min",
+      "maxOdometer": "Max",
+      "lease": "Leasebedrag",
+      "minLease": "Min",
+      "maxLease": "Max",
+      "category": "Categorie",
+      "enterCategory": "Voer categorie in",
+      "sortBy": "Sorteer op",
+      "sortDefault": "Sorteer",
+      "sortNewest": "Nieuwste aanbod eerst",
+      "sortMakeModel": "Merk/model/type",
+      "sortPriceAsc": "Prijs (oplopend)",
+      "sortPriceDesc": "Prijs (aflopend)",
+      "sortDistance": "Afstand tot aanbieder",
+      "resultsPerPage": "Resultaten per pagina",
+      "limit10": "10",
+      "limit25": "25",
+      "limit50": "50",
+      "limitDefault": "Limiet",
+      "features": {
+        "featuresTitle": "Kenmerken",
+        "air_conditioning": "Airconditioning",
+        "climate_control": "Klimaatregeling",
+        "cruise_control": "Cruisecontrol",
+        "intarder": "Intarder",
+        "pto": "PTO",
+        "retarder": "Retarder",
+        "tow_bar": "Trekhaak",
+        "warranty": "Garantie"
+      }
+    },
+    "loading": "Laden..."
+  },
+  "aboutUs": {
+    "banner": {
+      "title": {
+        "part1": "OVER",
+        "part2": "TRUCK TRADER"
+      },
+      "description": "De sites Trucktrader.nl, Trucktrader.be, Trucktrader.lu en Trucktrader.world (alle talen) zijn zeer gebruiksvriendelijk, zodat de verkoper vrijwel geen moeite hoeft te doen om zijn volledige voorraad te tonen. Natuurlijk moeten we ook de gebruiker/koper informeren die via onze geavanceerde zoekmachine snel de advertenties kan bekijken die hij wil; kortom, een platform waar koper en verkoper elkaar ontmoeten om DE DEAL te sluiten!"
+    },
+    "section1": {
+      "title": {
+        "part1": "De toegevoegde waarde van",
+        "part2": "Trucktrader"
+      },
+      "benefits": [
+        "Gebruiksvriendelijk, voor zowel de verkopende als kopende partijen",
+        "Een platform met groot bereik en exposure",
+        "Snelle en goedkope plaatsing van autovoorraad, banners en advertorials",
+        "Hoogwaardige advertenties tegen zeer concurrerende prijzen"
+      ]
+    },
+    "section2": {
+      "title": {
+        "part1": "Hoe beginnen we",
+        "part2": "?"
+      },
+      "description": "Trucktrader.nl werkt op basis van de door u aangeleverde XML FEED:",
+      "advantages": {
+        "title": "Voordelen:",
+        "list": [
+          "We plaatsen al uw advertenties volledig automatisch en ze zijn realtime zichtbaar",
+          "Bij elke advertentie een directe link naar uw webshop/website",
+          "Al uw advertenties zijn automatisch up-to-date",
+          "Gratis plaatsing van uw logo bij de advertenties"
+        ]
+      }
+    },
+    "section3": {
+      "title": {
+        "part1": "Er zijn momenteel koppelingen met",
+        "part2": "kant-en-klare feeds bij:"
+      },
+      "connections": [
+        "Hexon",
+        "Wheeler Delta",
+        "Autosoft",
+        "TWIN Vision",
+        "Trucks",
+        "Customer Connect",
+        "Autoscout24",
+        "123machine",
+        "VWE Automotive",
+        "(zodat u uw voorraad hier kunt koppelen)"
+      ]
+    },
+    "section4": {
+      "title": {
+        "part1": "Als er geen",
+        "part2": "XML-feed beschikbaar is:"
+      },
+      "list": [
+        "Als dit nog niet beschikbaar is, zal Trucktrader de XML-feed voor u in-house creëren (op basis van een offerte).",
+        "U kunt een XML-feed laten ontwikkelen door de beheerder van uw eigen website"
+      ]
+    }
+  },
+  "faqPage": {
+    "banner": {
+      "title": {
+        "part1": "Ofte",
+        "part2": "Stillede",
+        "part3": "Spørgsmål"
+      },
+      "description": "Lorem ipsum dolor sit amet consectetur."
+    },
+    "questions": {
+      "1": {
+        "title": "1. Hvad er kravene for at studere i Frankrig?",
+        "description": "Undervisningsgebyrer for kandidatuddannelser starter typisk ved 8.000 Euro pr. år. Derudover ligger de gennemsnitlige leveomkostninger i Frankrig på 600 til 1.000 Euro afhængigt af din valgte studiedestination."
+      },
+      "2": {
+        "title": "2. Hvor meget koster det at studere i Frankrig?",
+        "description": "Undervisningsgebyrer for kandidatuddannelser starter typisk ved 8.000 Euro pr. år. Derudover ligger de gennemsnitlige leveomkostninger i Frankrig på 600 til 1.000 Euro afhængigt af din valgte studiedestination."
+      },
+      "3": {
+        "title": "3. Hvad er kravene for at studere i Frankrig?",
+        "description": "Undervisningsgebyrer for kandidatuddannelser starter typisk ved 8.000 Euro pr. år. Derudover ligger de gennemsnitlige leveomkostninger i Frankrig på 600 til 1.000 Euro afhængigt af din valgte studiedestination."
+      },
+      "4": {
+        "title": "4. Hvad er kravene for at studere i Frankrig?",
+        "description": "Undervisningsgebyrer for kandidatuddannelser starter typisk ved 8.000 Euro pr. år. Derudover ligger de gennemsnitlige leveomkostninger i Frankrig på 600 til 1.000 Euro afhængigt af din valgte studiedestination."
+      },
+      "5": {
+        "title": "5. Hvad er kravene for at studere i Frankrig?",
+        "description": "Undervisningsgebyrer for kandidatuddannelser starter typisk ved 8.000 Euro pr. år. Derudover ligger de gennemsnitlige leveomkostninger i Frankrig på 600 til 1.000 Euro afhængigt af din valgte studiedestination."
+      },
+      "6": {
+        "title": "5. Hvad er kravene for at studere i Frankrig?",
+        "description": "Undervisningsgebyrer for kandidatuddannelser starter typisk ved 8.000 Euro pr. år. Derudover ligger de gennemsnitlige leveomkostninger i Frankrig på 600 til 1.000 Euro afhængigt af din valgte studiedestination."
+      },
+      "7": {
+        "title": "5. Hvad er kravene for at studere i Frankrig?",
+        "description": "Undervisningsgebyrer for kandidatuddannelser starter typisk ved 8.000 Euro pr. år. Derudover ligger de gennemsnitlige leveomkostninger i Frankrig på 600 til 1.000 Euro afhængigt af din valgte studiedestination."
+      },
+      "8": {
+        "title": "5. Hvad er kravene for at studere i Frankrig?",
+        "description": "Undervisningsgebyrer for kandidatuddannelser starter typisk ved 8.000 Euro pr. år. Derudover ligger de gennemsnitlige leveomkostninger i Frankrig på 600 til 1.000 Euro afhængigt af din valgte studiedestination."
+      },
+      "9": {
+        "title": "5. Hvad er kravene for at studere i Frankrig?",
+        "description": "Undervisningsgebyrer for kandidatuddannelser starter typisk ved 8.000 Euro pr. år. Derudover ligger de gennemsnitlige leveomkostninger i Frankrig på 600 til 1.000 Euro afhængigt af din valgte studiedestination."
+      },
+      "10": {
+        "title": "5. Hvad er kravene for at studere i Frankrig?",
+        "description": "Undervisningsgebyrer for kandidatuddannelser starter typisk ved 8.000 Euro pr. år. Derudover ligger de gennemsnitlige leveomkostninger i Frankrig på 600 til 1.000 Euro afhængigt af din valgte studiedestination."
+      },
+      "11": {
+        "title": "5. Hvad er kravene for at studere i Frankrig?",
+        "description": "Undervisningsgebyrer for kandidatuddannelser starter typisk ved 8.000 Euro pr. år. Derudover ligger de gennemsnitlige leveomkostninger i Frankrig på 600 til 1.000 Euro afhængigt af din valgte studiedestination."
+      },
+      "12": {
+        "title": "5. Hvad er kravene for at studere i Frankrig?",
+        "description": "Undervisningsgebyrer for kandidatuddannelser starter typisk ved 8.000 Euro pr. år. Derudover ligger de gennemsnitlige leveomkostninger i Frankrig på 600 til 1.000 Euro afhængigt af din valgte studiedestination."
+      },
+      "13": {
+        "title": "5. Hvad er kravene for at studere i Frankrig?",
+        "description": "Undervisningsgebyrer for kandidatuddannelser starter typisk ved 8.000 Euro pr. år. Derudover ligger de gennemsnitlige leveomkostninger i Frankrig på 600 til 1.000 Euro afhængigt af din valgte studiedestination."
+      },
+      "14": {
+        "title": "5. Hvad er kravene for at studere i Frankrig?",
+        "description": "Undervisningsgebyrer for kandidatuddannelser starter typisk ved 8.000 Euro pr. år. Derudover ligger de gennemsnitlige leveomkostninger i Frankrig på 600 til 1.000 Euro afhængigt af din valgte studiedestination."
+      },
+      "15": {
+        "title": "5. Hvad er kravene for at studere i Frankrig?",
+        "description": "Undervisningsgebyrer for kandidatuddannelser starter typisk ved 8.000 Euro pr. år. Derudover ligger de gennemsnitlige leveomkostninger i Frankrig på 600 til 1.000 Euro afhængigt af din valgte studiedestination."
+      }
+    },
+    "advertise": {
+      "title": {
+        "part1": "For",
+        "part2": "At Annoncere"
+      },
+      "description": "Lorem ipsum dolor sit amet consectetur."
+    }
+  },
+  "advertisePage": {
+    "banner": {
+      "title": "Annoncer",
+      "carCompanies": {
+        "title": "Bilvirksomheder",
+        "description": "TruckTrader har over 400.000 unikke besøgende hver måned - det er 400.000 potentielle brugte bilkøbere hver måned! Begejstret over mulighederne? Send en e-mail til sales@trucktrader.nl, så kontakter vi dig."
+      },
+      "individuals": {
+        "title": "Individer",
+        "description": "Som privatperson kan du også annoncere på TruckTrader. Med over 400.000 unikke besøgende hver måned vil du sælge dit køretøj på ingen tid! Når du er registreret, kan du straks indtaste din annonce!"
+      }
+    },
+    "form": {
+      "header": {
+        "title": "Tilmeld dig"
+      },
+      "fields": {
+        "subscription": {
+          "label": "Vælg Abonnement",
+          "placeholder": "Vælg Abonnement"
+        },
+        "cocNumber": {
+          "label": "CoC Nummer",
+          "placeholder": "CoC Nummer"
+        },
+        "firstName": {
+          "label": "Fornavn",
+          "placeholder": "Fornavn"
+        },
+        "street": {
+          "label": "Gade",
+          "placeholder": "Gade"
+        },
+        "country": {
+          "label": "Land",
+          "placeholder": "Vælg Land"
+        },
+        "phoneNumber": {
+          "label": "Telefonnummer",
+          "placeholder": "Telefonnummer"
+        },
+        "zipCode": {
+          "label": "Postnummer",
+          "placeholder": "Postnummer"
+        },
+        "company": {
+          "label": "Firma",
+          "placeholder": "Firma"
+        },
+        "insert": {
+          "label": "Indsæt",
+          "placeholder": "Indsæt"
+        },
+        "lastName": {
+          "label": "Efternavn",
+          "placeholder": "Efternavn"
+        },
+        "streetNumber": {
+          "label": "Gadenummer",
+          "placeholder": "Gadenummer"
+        },
+        "city": {
+          "label": "By",
+          "placeholder": "By"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "Indtast din e-mail"
+        },
+        "bank": {
+          "label": "Bank",
+          "placeholder": "Bank"
+        }
+      },
+      "button": "Indsend"
+    }
+  }
+}
